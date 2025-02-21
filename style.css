@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.controls{
+    margin-bottom:30px;
+    display:flex;
+    gap:10px;
+    
+}
+
+input[type="text"]{
+    width:25px;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    width:600px;
+    height:600px;
+    align-content: flex-start;
+    border-left:1px solid #aaa;
+    border-top:1px solid #aaa;
+}
+
+.square{
+    border-right:1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.square.colored{
+    background-color: grey;
+}
