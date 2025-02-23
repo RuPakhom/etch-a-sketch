@@ -8,11 +8,21 @@
 </head>
 <body>
     <div class="controls">
-        <input type="range" min="1" max="100" value="16" step="1" class="range">
-        <input type="text" disabled class="range-value" value="16">
-        <input type="color" class="square-color"> 
-        <button class="change">Change</button>
-        <button class="clear">Clear</button>
+        <h1>Controls</h1>
+        <div class="grid-size">
+            <input type="range" min="1" max="100" value="16" step="1" class="range">
+            <input type="text" disabled class="range-value" value="16">
+            <button class="change">Change size</button>
+        </div>
+        <div class="color-change">
+            <input type="color" class="square-color"> 
+            <button class="clear">Clear</button>
+        </div>
+        <div class="mode-container">
+            <button class="mode">Change Mode</button>
+            <input type="text" disabled class="mode-value" value="Classic mode">
+        </div>
+
     </div>
     <div class="container"></div>
     <script src="script.js"></script>
